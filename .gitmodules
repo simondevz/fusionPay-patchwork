@@ -4,3 +4,6 @@
 [submodule "lib/patchwork"]
 	path = lib/patchwork
 	url = https://github.com/runic-inc/patchwork
+[submodule "lib/openzeppelin-contracts"]
+	path = lib/openzeppelin-contracts
+	url = https://github.com/openzeppelin/openzeppelin-contracts
