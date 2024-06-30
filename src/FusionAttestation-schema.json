@@ -1,0 +1,59 @@
+{
+  "scopeName": "FusionAttestation",
+  "name": "FusionAttestation",
+  "symbol": "FUSION",
+  "schemaURI": "fiat/attestation/schema",
+  "imageURI": "fiat/attestation/image",
+  "fields": [
+    {
+      "id": 2,
+      "key": "bank",
+      "type": "char32",
+      "arrayLength": 1,
+      "description": "Bank Name",
+      "visibility": "public",
+      "slot": 0,
+      "offset": 0
+    },
+    {
+      "id": 3,
+      "key": "emailAddress",
+      "type": "char32",
+      "arrayLength": 1,
+      "description": "Email Address",
+      "visibility": "public",
+      "slot": 1,
+      "offset": 0
+    },
+    {
+      "id": 5,
+      "key": "orderRef",
+      "type": "char32",
+      "arrayLength": 1,
+      "description": "Order Reference",
+      "visibility": "public",
+      "slot": 2,
+      "offset": 0
+    },
+    {
+      "id": 4,
+      "key": "walletAddress",
+      "type": "address",
+      "arrayLength": 1,
+      "description": "Wallet Address",
+      "visibility": "public",
+      "slot": 3,
+      "offset": 0
+    },
+    {
+      "id": 1,
+      "key": "accountNumber",
+      "type": "char16",
+      "arrayLength": 1,
+      "description": "Bank Account Number",
+      "visibility": "public",
+      "slot": 4,
+      "offset": 0
+    }
+  ]
+}

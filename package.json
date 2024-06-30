@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@patchworkdev/pdk": "^0.1.9"
+  }
+}
